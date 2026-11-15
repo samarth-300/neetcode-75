@@ -12,4 +12,4 @@ class Solution:
             for num in freq[i]:
                 res.append(num)
                 if len(res) == k:
-                    return res
+                    return res 
