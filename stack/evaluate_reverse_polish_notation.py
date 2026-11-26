@@ -1,4 +1,4 @@
-class Solution:
+    class Solution:
     def evalRPN(self, tokens: List[str]) -> int:
 
         stack =[]
@@ -19,4 +19,4 @@ class Solution:
                     stack.append(a*b)
                 elif token == "/":
                     stack.append(int(a/b))
-        return stack[-1] 
+        return stack[-1]
